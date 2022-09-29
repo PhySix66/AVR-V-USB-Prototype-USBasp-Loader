@@ -1,0 +1,16 @@
+// Compile Settings for atmega328p
+// Compiler Version	avr-gcc-9.2.0
+// These values are loaded from makefile.
+#define	TARGET						atmega328p
+#define	TRGT_MHZ					20
+#define	F_CPU:						20000000
+// USB Settings:	
+#define	USB_CFG_IOPORTNAME:			D
+#define	USB_CFG_DPLUS_BIT:			3
+#define	USB_CFG_DMINUS_BIT:			2
+#define	USB Interrupt:				PCINTx
+#define	USB_CFG_PULLUP_IOPORTNAME	D
+#define	USB_CFG_PULLUP_BIT			7
+#define	SlowSCK_PORTNAME			D
+#define	SlowSCK_BIT					5
+#endif
